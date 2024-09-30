@@ -71,26 +71,28 @@
         var health = "https://www.notion.so/Health-Dashboard-1100d6d2af8a80a0a0d1ede69eeed4fc?pvs=25"
         var other = "https://www.notion.so/Other-1110d6d2af8a80998e11e19123bcee9e?pvs=25"
         var interests = "https://www.notion.so/Interests-Dashboard-1110d6d2af8a80418470cbdaf8d18e73?pvs=25"
+        
         function navigate(id) {
-            // Симуляция навигации (измените URL на нужные)
             if (id == 'home')
-                window.open(home, '_blank').focus();
+                window.location.href = home;
             else if (id == "trading")
-                window.open(trading, '_blank').focus();
+                window.location.href = trading;
             else if (id == "development")
-                window.open(development, '_blank').focus();
+                window.location.href = development;
             else if (id == "notes")
-                window.open(notes, '_blank').focus();
+                window.location.href = notes;
             else if (id == "investments")
-                window.open(investments, '_blank').focus();
+                window.location.href = investments;
             else if (id == "health")
-                window.open(health, '_blank').focus();
+                window.location.href = health;
             else if (id == "other")
-                window.open(other, '_blank').focus();
+                window.location.href = other;
             else if (id == "interests")
-                window.open(interests, '_blank').focus();
+                window.location.href = interests;
         }
     </script>
+    
+
 
 </body>
 
